@@ -42,15 +42,15 @@ Most asked-for feature (besides solving state space explosion) with regards to T
 
 # LSP
 
-* https://en.wikipedia.org/wiki/Language_Server_Protocol
-* https://microsoft.github.io/language-server-protocol/
-* https://langserver.org/
+* <https://en.wikipedia.org/wiki/Language_Server_Protocol>
+* <https://microsoft.github.io/language-server-protocol/>
+* <https://langserver.org/>
 * [LSP 4 Java](https://github.com/eclipse/lsp4j)
 
 # Prior Work
 
-* https://github.com/ahelwer/tlaplus-language-server
-* https://github.com/TeamTilapia/vscode-tilapia
+* <https://github.com/ahelwer/tlaplus-language-server>
+* <https://github.com/TeamTilapia/vscode-tilapia>
 
 # Organizational
 
