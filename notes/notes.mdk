@@ -40,16 +40,6 @@ Most asked-for feature (besides solving state space explosion) with regards to T
   * Refactoring SANY a hackathon of its own
   * => Duplicate functionality? :-(
 
-# Action Items
-
-* Daan: Jonathan Brachthäuser LSP for Koka
-* 
-
-# Goals
-
-* Generic LSP to text-based stin/stdout command-line interface
-* Not bound to TLA+!
-
 # LSP
 
 * <https://en.wikipedia.org/wiki/Language_Server_Protocol>
@@ -66,9 +56,28 @@ Most asked-for feature (besides solving state space explosion) with regards to T
 
 # Organizational
 
-* Code at GitHub
+* [Code at GitHub](https://github.com/lemmy/lsp4tlaplus)
 * Tent vs. Conference Room
 * Next meeting
 
+----------
 
-[BIB]
+07/03/2019
+
+* Discussed what LSP is and what it can be used for
+* Came up wit the following goals
+
+# Goals (+) and Non-Goals (-)
+
+* (+) Familiarize with LSP
+* (+) Generic LSP to text-based stin/stdout command-line interface
+  * Not bound to TLA+ but tailored to languages that just require a small subset of the features provided by LSP (mainly editing)
+  * => Identify subset of functionality we want to support
+* (-) Do not build a product
+
+# Action Items
+
+* Daan: Jonathan Brachthäuser LSP for Koka
+* Ken: Send GitHub username to Markus to get access to repo
+* Leo: Send GitHub username to Markus to get access to repo
+* Everybody: Read LSP documentation
