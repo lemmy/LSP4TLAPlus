@@ -40,6 +40,16 @@ Most asked-for feature (besides solving state space explosion) with regards to T
   * Refactoring SANY a hackathon of its own
   * => Duplicate functionality? :-(
 
+# Action Items
+
+* Daan: Jonathan Brachthäuser LSP for Koka
+* 
+
+# Goals
+
+* Generic LSP to text-based stin/stdout command-line interface
+* Not bound to TLA+!
+
 # LSP
 
 * <https://en.wikipedia.org/wiki/Language_Server_Protocol>
@@ -49,6 +59,8 @@ Most asked-for feature (besides solving state space explosion) with regards to T
 
 # Prior Work
 
+* <https://github.com/ahelwer/tlaplus-language-server>
+* <https://github.com/TeamTilapia/vscode-tilapia>
 * <https://github.com/ahelwer/tlaplus-language-server>
 * <https://github.com/TeamTilapia/vscode-tilapia>
 
