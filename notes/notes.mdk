@@ -71,7 +71,7 @@ Most asked-for feature (besides solving state space explosion) with regards to T
 # Goals (+) and Non-Goals (-)
 
 * (+) Familiarize with LSP
-* (+) Generic LSP to text-based stin/stdout command-line interface
+* (+) Generic LSP to text-based stdin/stdout command-line interface, i.e. an LSP implementation that invokes the (existing) tools such as syntax checker, compiler, ... of the language via their existing command-line interfaces.
   * Not bound to TLA+ but tailored to languages that just require a small subset of the features provided by LSP (mainly editing)
   * => Identify subset of functionality we want to support
 * (-) Do not build a product
