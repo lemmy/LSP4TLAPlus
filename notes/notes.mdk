@@ -41,6 +41,12 @@ attractive for language researchers.
 * <https://langserver.org/>
 * [LSP 4 Java](https://github.com/eclipse/lsp4j)
 
+# Green vs. Brown-Field
+
+* Greenfield or brownfield project?
+  * Provide a solution for existing (research) languages such as Koka, Lean, TLA+, ...
+  * Identify best practices for future research languages how they should build on LSP from the start 
+
 # TLA+ or another language?     { #sec-intro }
 
 Most asked-for feature (besides solving state space explosion) is tooling/language support for IDEs and editors
