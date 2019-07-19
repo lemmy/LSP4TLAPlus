@@ -69,7 +69,9 @@ Most asked-for feature (besides solving state space explosion) with regards to T
   of the LSP2CL daemon/process is adopted, spawning a Java process might be too heavyweight to provide a responsive/snappy
   user experience. One way is to run SANY in-process which however conflicts with the idea of having a generic LSP2CL. An
   alternative might be to build SANY as a (static) [native image with GraalVM](https://www.graalvm.org/docs/reference-manual/aot-compilation/).
-  GraalVM's native image trades execution for startup speed which is acceptable for the LSP use case.
+  GraalVM's native image trades execution for startup speed which is acceptable for the LSP use case. However, for large
+  specifications - not the norm - parsing may take to long to be executed for each request coming from LSP2CL. We would have
+  to find a way to keep the AST in memory or at least persist it to disk.
   
 
 ## Prior Work
