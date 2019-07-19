@@ -18,6 +18,21 @@ Some courage and some wisdom, blended in measure. If more of us valued
 food and cheer and song above hoarded gold, it would be a merrier world!
 ~
 
+# What is LSP?
+
+LSP solves the dilemma that creators of (programming and specification)
+languages face when it comes to tooling support for their language. 
+Tooling providers (Visual Studio, Eclipse, ...) see no benefit in adding 
+support for another (research) language until the language has reached 
+maturity and attracted a significant user base. On the other hand, language 
+creators usually do not have the bandwidth to add language support to all 
+editors and IDEs out there. This limits the languages reach because the success
+of a language is also determined by its tooling.
+
+Providing a home-grown solution or focusing on a single IDE is the usual 
+approach taken by language creators. LSP is a game changer because it provides
+a standardized API that when used will work in all IDEs. 
+
 # TLA+ or another language?     { #sec-intro }
 
 Most asked-for feature (besides solving state space explosion) with regards to Tooling
