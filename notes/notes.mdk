@@ -18,7 +18,7 @@ Some courage and some wisdom, blended in measure. If more of us valued
 food and cheer and song above hoarded gold, it would be a merrier world!
 ~
 
-# What is LSP?
+# LSP for RiSE
 
 LSP solves the dilemma that creators of (programming and specification)
 languages face when it comes to tooling support for their language. 
@@ -33,6 +33,13 @@ Providing a home-grown solution or focusing on a single IDE is the usual
 approach taken by language creators. LSP is a game changer because it provides
 a standardized API that when used will work in all IDEs. This makes LSP especially
 attractive for language researchers.
+
+# LSP
+
+* <https://en.wikipedia.org/wiki/Language_Server_Protocol>
+* <https://microsoft.github.io/language-server-protocol/>
+* <https://langserver.org/>
+* [LSP 4 Java](https://github.com/eclipse/lsp4j)
 
 # TLA+ or another language?     { #sec-intro }
 
@@ -56,17 +63,17 @@ Most asked-for feature (besides solving state space explosion) with regards to T
   * Refactoring SANY a hackathon of its own
   * => Duplicate functionality? :-(
 
-# LSP
+## Architecture
 
-* <https://en.wikipedia.org/wiki/Language_Server_Protocol>
-* <https://microsoft.github.io/language-server-protocol/>
-* <https://langserver.org/>
-* [LSP 4 Java](https://github.com/eclipse/lsp4j)
+* The TLA+ tools and especially the syntax and semantic checker (SANY) are implemented in Java. If the architecture
+  of the LSP2CL daemon/process is adopted, spawning a Java process might be too heavyweight to provide a responsive/snappy
+  user experience. One way is to run SANY in-process which however conflicts with the idea of having a generic LSP2CL. An
+  alternative might be to build SANY as a (static) [native image with GraalVM](https://www.graalvm.org/docs/reference-manual/aot-compilation/).
+  GraalVM's native image trades execution for startup speed which is acceptable for the LSP use case.
+  
 
-# Prior Work
+## Prior Work
 
-* <https://github.com/ahelwer/tlaplus-language-server>
-* <https://github.com/TeamTilapia/vscode-tilapia>
 * <https://github.com/ahelwer/tlaplus-language-server>
 * <https://github.com/TeamTilapia/vscode-tilapia>
 
