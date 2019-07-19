@@ -31,7 +31,8 @@ of a language is also determined by its tooling.
 
 Providing a home-grown solution or focusing on a single IDE is the usual 
 approach taken by language creators. LSP is a game changer because it provides
-a standardized API that when used will work in all IDEs. 
+a standardized API that when used will work in all IDEs. This makes LSP especially
+attractive for language researchers.
 
 # TLA+ or another language?     { #sec-intro }
 
