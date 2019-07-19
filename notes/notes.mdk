@@ -43,7 +43,8 @@ attractive for language researchers.
 
 # TLA+ or another language?     { #sec-intro }
 
-Most asked-for feature (besides solving state space explosion) with regards to Tooling
+Most asked-for feature (besides solving state space explosion) is tooling/language support for IDEs and editors
+other than Eclipse (TLA+ Toolbox).
 
 ## Obstacles
 
