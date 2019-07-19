@@ -85,8 +85,8 @@ other than Eclipse (TLA+ Toolbox).
 
 ## Prior Work
 
-* <https://github.com/ahelwer/tlaplus-language-server>
-* <https://github.com/TeamTilapia/vscode-tilapia>
+* <https://github.com/ahelwer/tlaplus-language-server> (just an empty project)
+* <https://github.com/TeamTilapia/vscode-tilapia> (no LSP/pure VSCode extension)
 
 # Organizational
 
