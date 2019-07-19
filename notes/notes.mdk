@@ -45,7 +45,9 @@ attractive for language researchers.
 
 * Greenfield or brownfield project?
   * Provide a solution for existing (research) languages such as Koka, Lean, TLA+, ...
-  * Identify best practices for future research languages how they should build on LSP from the start 
+  * Identify best practices for future research languages how they should build on LSP from the start
+    * Follow a architecture such as [LSP fo bash](https://github.com/mads-hartmann/bash-language-server) which
+      builds on [tree-sitter](http://tree-sitter.github.io/tree-sitter/); a generic parser framework
 
 # TLA+ or another language?     { #sec-intro }
 
