@@ -11,7 +11,7 @@ Beamer Theme  : singapore
 
 [TOC]
 
-# Hack an LSP4TLA+?
+# Hack an LSP4TLA<sup>+</sup>?
 
 * Discussed the features of Lean and TLA+ and how users of those languages interact with the tools
   * The feature set of LSP such as code completion, showing parsing errors, syntax highlighting, ...
