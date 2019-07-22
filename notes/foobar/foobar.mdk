@@ -1,5 +1,5 @@
 [INCLUDE=presentation]
-Title         : Hack an LSP for TLA<sup>+<
+Title         : Hack an LSP for TLA<sup>+</sup>
 Sub Title     : ...or maybe not
 Author        : Leo, Madan, Markus
 Reveal Theme  : sky
@@ -34,51 +34,56 @@ Considered implementing an LSP client for VSCode
 
 * Toolbox provides functionality to tap into the compute resources provided by e.g. Azure
   * Run model checking remotely on fat machines
-  * Run Model Checking in parallel on multiple machines => More exhaustively explore design space
+  * Run model checking in parallel on multiple machines
+    * => More exhaustively explore design space
 
-# Rise4fun successor a.k.a. *Formal Methods as a Service*
+# From Rise4fun to *Formal Methods as a Service*
 
-Peli mentioned that LSP could become the successor to Rise4fun. VSCode is moving into the web (it is already in the browser)
+(Peli inspired this idea by mentioning that VSCode will move to the web soon)
 
 ## Goals
 
-* Make RiSE tools more successfully by providing a web-based environment that does not only
-  support toying with a RiSE language but is a first-class IDE and experiment environment for
-  languages and tools
+* Boost RiSE languages and tools by providing a web-based,
+ first-class IDE & Experiment Environment
 
-* Convenience/easy-of-us is extremely important to win users
-  * => if a user cannot start your tool, she won't be able to use it
+* Convenience & Easy-Of-Use extremely important to win users
+  * [SageMath](http://www.sagemath.org/index.html) & CoCalc by UW William Stein
+  * Patrice's project Springfield inspirational
 
 ## Target audience 
 
-* Teaching environments such as a university course on distributed systems
+* Education: 
+  Teaching environments such as a university course on distributed systems
 
-* "Enterprise" users (internal (dog food) and external to Microsoft)
-  * Explore design space as fast as possible (massive compute)
+* Enterprise:
+  * Microsoft internal (dog food)
+  * External 
+  * => Explore design space as fast as possible (massive compute)
 
-### Use cases
+## Use cases
 
 * Education: 
   * No time or expertise to setup a tools on student computers
   * Insufficient resources to check the results of all students as part of grading
-  * Hello MakeCode?!
+  * _Hello_ MakeCode?!
 
-* Enterprise
+* Enterprise:
   * Explore design space faster by running tools, i.e. model checker in parallel
   * Time-dimension of prover or model checking runs
-    * How do 
   * Continuous integration for model checking, theorem proving, rest of software project
-
 
 ## Requirements
 
-### Convenience
 
-### Compute
 
-## Headcount
+## Convenience
+
+## Compute
+
+## Manpower
 
 * An Azure service requires at least one FTE
+  * Administrative "overhead" such as compliance
   * => Prototype with a 3 months RiSE intern
   * => Tap into Gavin's resources
   * => Seek help from Azure experts to navigate the Azure feature space
