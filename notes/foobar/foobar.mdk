@@ -1,5 +1,5 @@
 [INCLUDE=presentation]
-Title         : LSP
+Title         : Hack an LSP for TLA<sup>+<
 Sub Title     : ...or maybe not
 Author        : Leo, Madan, Markus
 Reveal Theme  : sky
@@ -30,7 +30,7 @@ Considered implementing an LSP client for VSCode
 ~
 [IMG_20190722_150554~2]: images/IMG_20190722_150554-2.jpg "IMG_20190722_150554~2" { width:auto; max-width:90% }
 
-
+## TLA+ Toolbox
 
 * Toolbox provides functionality to tap into the compute resources provided by e.g. Azure
   * Run model checking remotely on fat machines
