@@ -72,13 +72,24 @@ Considered implementing an LSP client for VSCode
   * Time-dimension of prover or model checking runs
   * Continuous integration for model checking, theorem proving, rest of software project
 
-## Requirements
-
-
-
 ## Convenience
 
+* No installation (just open an URL)
+* Package Management
+* Lightweight user experience
+
 ## Compute
+
+* Connect compute-intensive tools to machine learning to improve the tools execution
+* Scale to massive compute when necessary without buying expensive HW
+
+## Related Services
+
+* Azure Pipeline Tasks
+  * Implement a model checker task
+* Azure Batch
+* Azure Stack
+  * => Reuse local HW
 
 ## Manpower
 
@@ -88,6 +99,12 @@ Considered implementing an LSP client for VSCode
   * => Tap into Gavin's resources
   * => Seek help from Azure experts to navigate the Azure feature space
 
+## Tuesday & Wednesday
+
+
+
+
+-------------
 
 # Madoko Presentation
 
