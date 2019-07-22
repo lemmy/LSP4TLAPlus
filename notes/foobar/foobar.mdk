@@ -43,11 +43,12 @@ Considered implementing an LSP client for VSCode
 
 ## Goals
 
-* Boost RiSE languages and tools by providing a web-based,
+* Boost popularity of RiSE languages and tools by providing a web-based,
  first-class IDE & Experiment Environment
 
 * Convenience & Easy-Of-Use extremely important to win users
-  * [SageMath](http://www.sagemath.org/index.html) & CoCalc by UW William Stein
+  * [SageMath](http://www.sagemath.org/index.html) (William Stein)
+  * [CoCalc](https://cocalc.com/policies/pricing.html)
   * Patrice's project Springfield inspirational
 
 ## Target audience 
@@ -65,7 +66,8 @@ Considered implementing an LSP client for VSCode
 * Education: 
   * No time or expertise to setup a tools on student computers
   * Insufficient resources to check the results of all students as part of grading
-  * _Hello_ MakeCode?!
+      * [CSE586 at University Buffalo](https://cse.buffalo.edu/~demirbas/CSE586.html)
+  * _Hello_ [MakeCode](https://www.microsoft.com/en-us/makecode?rtc=1)?!
 
 * Enterprise:
   * Explore design space faster by running tools, i.e. model checker in parallel
@@ -75,20 +77,22 @@ Considered implementing an LSP client for VSCode
 ## Convenience
 
 * No installation (just open an URL)
+  * web is the future/VSCode is built on chromium
 * Package Management
 * Lightweight user experience
 
 ## Compute
 
-* Connect compute-intensive tools to machine learning to improve the tools execution
-* Scale to massive compute when necessary without buying expensive HW
+* Scale to massive compute without buying expensive HW
+  => No up-front investment
+* Build datasets from FMaaS to feed into ML to improve the tools
 
 ## Related Services
 
-* Azure Pipeline Tasks
+* [Azure Pipeline](https://azure.microsoft.com/en-us/services/devops/pipelines/)
   * Implement a model checker task
-* Azure Batch
-* Azure Stack
+* [Azure Batch](https://azure.microsoft.com/en-us/services/batch/)
+* Azure Stack](https://azure.microsoft.com/en-us/overview/azure-stack/)
   * => Reuse local HW
 
 ## Manpower
