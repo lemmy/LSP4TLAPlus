@@ -33,13 +33,12 @@ Beamer Theme  : singapore
 
 ## The Solution
 
+![lsp-languages-editors]
+
+[lsp-languages-editors]: images/lsp-languages-editors.png "lsp-languages-editors" { width:auto; max-width:90% }
+
+
 > LSP is a win for both language providers and tooling vendors!
-
-## Hack: LSP for TLA<sup>+</sup>?
-
-* Discussed the features of Lean and TLA+ and how users of those languages interact with the tools
-  * The feature set of LSP such as code completion, showing parsing errors, syntax highlighting, ...
-  * Program execution not the scope of LSP => [DAP](https://microsoft.github.io/debug-adapter-protocol/overview) 
 
 ## Supported: Code editing
 
@@ -90,6 +89,16 @@ Beamer Theme  : singapore
 * ...specific to VSCode
   * LSP client does more than it should
 * Took two Phd students months
+
+## Way out?
+
+* Keep hacking...
+  * [Isabelle for VSCode](https://marketplace.visualstudio.com/items?itemName=makarius.isabellehttps://marketplace.visualstudio.com/items?itemName=makarius.isabelle)
+  * [Coq for LSP](https://github.com/coq/coq/issues/9012)
+* [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/overview) 
+* LSP² or LSP<sup>FM</sup>
+
+# The bigger picture
 
 ## TLA+ Toolbox
 
