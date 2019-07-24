@@ -10,9 +10,24 @@ Beamer Theme  : singapore
 
 [TOC]
 
-# Hack an LSP4TLA<sup>+</sup>?
+# Hackathon
 
-* Testing
+## What is LSP
+
+* Language Server Protocol
+
+~ Begin Framed
+|               | Koka | LEAN | F*  | Ivy | TLA+ | ... |
+| --------------|:----:|:----:|:---:|:---:|:----:|:----:|
+| Emacs         | t    | t    | t   | t   | t    |
+| Vi            |      |      |     |     |      |
+| VSCode        |      |      |     |     |      |
+| Visual Studio |      |      |     |     |      |
+| Eclipse       |      |      |     |     |      |
+| ...           |      |      |     |     |      |
+~End  Framed
+
+## Hack: LSP for TLA<sup>+</sup>?
 
 * Discussed the features of Lean and TLA+ and how users of those languages interact with the tools
   * The feature set of LSP such as code completion, showing parsing errors, syntax highlighting, ...
