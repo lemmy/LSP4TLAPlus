@@ -12,20 +12,28 @@ Beamer Theme  : singapore
 
 # Hackathon
 
-## What is LSP
+## What is LSP?
 
-* Language Server Protocol
+* [Language Server Protocol](https://langserver.org/)
+* Proposed by Microsoft
+
+
+## The Grand Challenge of Tooling
 
 ~ Begin Framed
 |               | Koka | LEAN | F*  | Ivy | TLA+ | ... |
 | --------------|:----:|:----:|:---:|:---:|:----:|:----:|
-| Emacs         | t    | t    | t   | t   | t    |
+| Emacs         |      |      |     |     |      |
 | Vi            |      |      |     |     |      |
 | VSCode        |      |      |     |     |      |
 | Visual Studio |      |      |     |     |      |
 | Eclipse       |      |      |     |     |      |
 | ...           |      |      |     |     |      |
 ~End  Framed
+
+## The Solution
+
+> LSP is a win for both language providers and tooling vendors!
 
 ## Hack: LSP for TLA<sup>+</sup>?
 
