@@ -25,8 +25,8 @@ Beamer Theme  : singapore
 | ...           |      |      |     |     |      |
 ~End  Framed
 
-~ Center
-content
+~Center
+[TLA+ exec stats](https://msit.powerbi.com/groups/me/reports/9bdfd7a8-41fb-4d39-a791-d19ce3abb110/ReportSection)
 ~
 
 ## The Solution
@@ -148,30 +148,59 @@ content
 ## Convenience
 
 * No installation (just open an URL)
-  * web is the future/VSCode is built on chromium
+  * Web is the future/VSCode is built on chromium
 * Package Management
 * Lightweight user experience
+* ...
 
 ## Compute
 
 * Scale to massive compute without buying expensive HW
-  => No up-front investment
-* Build datasets from FMaaS to feed into ML to improve the tools
+  * => No up-front investment (buy big machine)
+* Improve RiSE tools
+  * => Build datasets from FMaaS to feed into ML to improve the tools
+
+## 
+
+* Containers to the rescue?!
+  * A docker container for each lang on [Rise4Fun](https://rise4fun.com/)
+  1) Users run container locally
+  2) Move to an Azure instance
+  3) ...but how scale up?
+
+* Iaas, PaaS, FaaS, ?aa?
 
 ## Related Services
 
-* [Azure Pipeline](https://azure.microsoft.com/en-us/services/devops/pipelines/)
-  * Implement a model checker task
 * [Azure Batch](https://azure.microsoft.com/en-us/services/batch/)
-* Azure Stack](https://azure.microsoft.com/en-us/overview/azure-stack/)
+* [Azure Stack](https://azure.microsoft.com/en-us/overview/azure-stack/)
   * => Reuse local HW
+  * (-) Geared towards enterprise users only
+* [Azure Functions](https://azure.microsoft.com/en-us/resources/videos/get-started-with-azure-functions/)
+  * [Run console app](https://azure.microsoft.com/en-us/resources/samples/functions-dotnet-migrating-console-apps/) examples packages native code
+* [Azure Pipeline](https://azure.microsoft.com/en-us/services/devops/pipelines/)
+  * Implement a verification task
+  * User experience of verification mimics that of programming languages
+  * Works in the classroom too
   
-* PaaS creates problems with billing
-* With IaaS user's subscription
+~ Center
+PaaS creates problems with billing
+~
+
+## Azure Landscape
+
+![AzureFunctions]
+
+[AzureFunctions]: images/AzureFunctions.png "AzureFunctions" { width:auto; max-width:90% }
+
+## Requirements
+
+1) RiSE does not nd up operating an Azure service
+2) One-Stop solution that scales from exploring a language, education, and real-world use
 
 ## Manpower
 
-* An Azure **service** (PaaS) requires at least one FTE
+* An Azure **service** requires at least one FTE
   * Administrative "overhead" such as compliance
   * => Prototype with a 3 months RiSE intern
   * => Tap into Gavin's resources
