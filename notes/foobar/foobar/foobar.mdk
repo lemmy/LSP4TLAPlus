@@ -12,12 +12,6 @@ Beamer Theme  : singapore
 
 # Hackathon
 
-## What is LSP?
-
-* [Language Server Protocol](https://langserver.org/)
-* Proposed by Microsoft
-
-
 ## The Grand Challenge of Tooling
 
 ~ Begin Framed
@@ -33,12 +27,29 @@ Beamer Theme  : singapore
 
 ## The Solution
 
+~ Center
 ![lsp-languages-editors]
+~
 
 [lsp-languages-editors]: images/lsp-languages-editors.png "lsp-languages-editors" { width:auto; max-width:90% }
 
 
-> LSP is a win for both language providers and tooling vendors!
+> Language Server Protocol is a win for both language providers and tooling vendors!
+
+~ Center
+(LSP proposed by Microsoft)
+~
+
+## Architecture (TLA+)
+
+* Existing TLA+ Toolbox acts as the LSP (back-end) server
+  * Java/Eclipse there exists [lsp4j](https://github.com/eclipse/lsp4j)
+    (abstracts from JSON parsing)
+
+~ Center
+![IMG_20190722_150554~2]
+~
+[IMG_20190722_150554~2]: images/IMG_20190722_150554-2.jpg "IMG_20190722_150554~2" { width:auto; max-width:90% }
 
 ## Supported: Code editing
 
@@ -71,24 +82,15 @@ Beamer Theme  : singapore
 [ModelEditor]: images/ModelEditor.png "ModelEditor" { width:auto; max-width:90% }
 ~
 
-## Architecture
-
-* Existing TLA+ Toolbox acts as the LSP (back-end) server
-  * Java/Eclipse there exists [lsp4j](https://github.com/eclipse/lsp4j)
-    (abstracts from JSON parsing)
-
-~ Center
-![IMG_20190722_150554~2]
-~
-[IMG_20190722_150554~2]: images/IMG_20190722_150554-2.jpg "IMG_20190722_150554~2" { width:auto; max-width:90% }
 
 ## LEAN
 
 * LEAN has a [VSCode extension](https://marketplace.visualstudio.com/items?itemName=jroesch.lean) based on LSP
 * Everything besides code editing is hand-written HTML
 * ...specific to VSCode
-  * LSP client does more than it should
-* Took two Phd students months
+  * LSP __client__ does more than it should
+* Took 1.x Phd students months to get going
+* ...and they still have to maintain it
 
 ## Way out?
 
@@ -96,7 +98,9 @@ Beamer Theme  : singapore
   * [Isabelle for VSCode](https://marketplace.visualstudio.com/items?itemName=makarius.isabellehttps://marketplace.visualstudio.com/items?itemName=makarius.isabelle)
   * [Coq for LSP](https://github.com/coq/coq/issues/9012)
 * [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/overview) 
-* LSP² or LSP<sup>FM</sup>
+* LSP 2.0 (ideally convince Erich Gamma to do our work)
+* Formal Language Server Platform
+  => Identify common denominator of RiSE languages?
 
 # The bigger picture
 
