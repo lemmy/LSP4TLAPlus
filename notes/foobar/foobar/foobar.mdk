@@ -25,6 +25,8 @@ Beamer Theme  : singapore
 | ...           |      |      |     |     |      |
 ~End  Framed
 
+[TLA+ exec stats](https://msit.powerbi.com/groups/me/reports/9bdfd7a8-41fb-4d39-a791-d19ce3abb110/ReportSection)
+
 ## The Solution
 
 ~ Center
@@ -104,31 +106,24 @@ Beamer Theme  : singapore
 
 # The bigger picture
 
-## TLA+ Toolbox
-
-* Toolbox provides functionality to tap into the compute resources provided by e.g. Azure
-  * Run model checking remotely on fat machines
-  * Run model checking in parallel on multiple machines
-    * => More exhaustively explore design space
-
-# From Rise4fun to *Formal Methods as a Service*
-
-(Peli inspired this idea by mentioning that VSCode will move to the web soon)
-
 ## Goals
 
-* Boost popularity of RiSE languages and tools by providing a web-based,
- first-class IDE & Experiment Environment
+* Boost popularity of RiSE languages and tools by providing a
+ first-class IDE & Verification Environment
 
 * Convenience & Easy-Of-Use extremely important to win users
   * [SageMath](http://www.sagemath.org/index.html) (William Stein)
   * [CoCalc](https://cocalc.com/policies/pricing.html)
   * Patrice's project Springfield inspirational
+* Scalability of Verification
 
 ## Target audience 
 
+* Language Learners:
+  * Previously Rise4Fun
+
 * Education: 
-  Teaching environments such as a university course on distributed systems
+  * Teaching environments such as a university course on distributed systems
 
 * Enterprise:
   * Microsoft internal (dog food)
@@ -168,23 +163,17 @@ Beamer Theme  : singapore
 * [Azure Batch](https://azure.microsoft.com/en-us/services/batch/)
 * Azure Stack](https://azure.microsoft.com/en-us/overview/azure-stack/)
   * => Reuse local HW
+  
+* PaaS creates problems with billing
+* With IaaS user's subscription
 
 ## Manpower
 
-* An Azure service requires at least one FTE
+* An Azure **service** (PaaS) requires at least one FTE
   * Administrative "overhead" such as compliance
   * => Prototype with a 3 months RiSE intern
   * => Tap into Gavin's resources
   * => Seek help from Azure experts to navigate the Azure feature space
-
-# Tuesday
-
-* Hacked a Python script to convert a txt file to csv. :-)
-* TLA+ execution statistics analytics with PowerBi
-
-## Wednesday
-
-
 
 
 -------------
