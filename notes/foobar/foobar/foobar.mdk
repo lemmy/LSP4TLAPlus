@@ -160,17 +160,16 @@ Beamer Theme  : singapore
 * Improve RiSE tools
   * => Build datasets from FMaaS to feed into ML to improve the tools
 
-## 
+## Requirements
 
-* Containers to the rescue?!
-  * A docker container for each lang on [Rise4Fun](https://rise4fun.com/)
-  1) Users run container locally
-  2) Move to an Azure instance
-  3) ...but how scale up?
+1) RiSE does not end up operating an Azure service
+2) One-Stop solution that scales from exploring a language, via education, to real-world use
 
-* Iaas, PaaS, FaaS, ?aa?
+## [A-Z]{1}-as-a-Service
 
-## Related Services
+Iaas, PaaS, SaaS, FaaS, ...
+
+## Related Azure Services
 
 * [Azure Batch](https://azure.microsoft.com/en-us/services/batch/)
 * [Azure Stack](https://azure.microsoft.com/en-us/overview/azure-stack/)
@@ -184,7 +183,7 @@ Beamer Theme  : singapore
   * Works in the classroom too
   
 ~ Center
-PaaS creates problems with billing
+[A-Z]{1}aaS creates problems with billing unless RiSE pays
 ~
 
 ## Azure Landscape
@@ -193,10 +192,20 @@ PaaS creates problems with billing
 
 [AzureFunctions]: images/AzureFunctions.png "AzureFunctions" { width:auto; max-width:90% }
 
-## Requirements
+## Containers to the rescue?!
 
-1) RiSE does not nd up operating an Azure service
-2) One-Stop solution that scales from exploring a language, education, and real-world use
+A docker container for each lang on [Rise4Fun](https://rise4fun.com/)
+* => Packages (potentially long list) of dependencies
+
+1. Users run container locally
+2. Move to an Azure instance
+3. ...but how to scale up?
+
+## IaaS TLA+ Toolbox
+
+* TLA+ packaging easy
+* => Automatically provision VM (IaaS)
+  * Runs under a user's subscription 
 
 ## Manpower
 
